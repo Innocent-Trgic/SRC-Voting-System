@@ -11,11 +11,14 @@ Features
 •	Candidate information and voting screens.
 •	Ballot review and vote confirmation
 •	Election results and voter audit screens
+
 Requirements
 
 •	Java Development Kit (JDK)
 •	Apache NetBeans IDE 
+
 Team Contributions
+
 Our eight group members contributed to the coding, interface design, presentation, review, and documentation of the systems.
 
 System Code
@@ -38,12 +41,18 @@ System Code
 - Candidate.java- represents a candidate and stores candidate information.
 - CandidateData.java – stores or manages candidate data.
 - Candidateframe.java – displays candidate information and candidate-related options.
+- 
      JFrame design
+  
 •	*Prevail Ndlovu and Future Lubisi* designed the JFrame screens, arranging the interface components and supporting navigating and user actions throughout the voting system.
+
  Presentation, review, and report
+ 
 •	*Hlulelo Hope Khoza* prepared the PowerPoint presentation and helped review the designs to check that the screens and their functions worked as expected.
 •	*Ahlumilo Paliso* prepared the project report, describing the system, how it works.
+
 How the System Works
+
 The application is built with Java Swing. Its JFrame classes provide the screens, while the data classes hold or manage information used by those screens.
 When the application starts, Main.java opens the welcome screen. From there, a user can proceed to the student voting flow or the administrator login. In the voting flow, the student signs in, views candidate information, reviews the ballot, and receives confirmation after submitting a vote. An administrator can sign in to view election results and voter audit information (Using username: admin & password: CPUT@0123).
 
